@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/overflow"
+        android:icon="@drawable/ic_menu_moreoverflow_normal_holo_dark"
+        android:orderInCategory="1111"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/motion"
+                android:title="@string/motion"
+                android:icon="@drawable/ic_3d_rotation_black_24dp"
+                app:showAsAction="always">
+            </item>
+
+            <item
+                android:id="@+id/proximity"
+                android:title="Proximity"
+                android:icon="@drawable/proximity"
+                app:showAsAction="always">
+            </item>
+
+            <item
+                android:id="@+id/voice"
+                android:title="@string/voice"
+                android:icon="@drawable/ic_keyboard_voice_black_24dp"
+                app:showAsAction="always">
+            </item>
+        </menu>
+    </item>
+
+
+</menu>

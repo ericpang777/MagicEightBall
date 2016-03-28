@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_long_name">Magic Eight Ball</string>
+    <string name="app_name">Magic 8 Ball</string>
+    <string name="motion">Motion</string>
+    <string name="fingerprint">Fingerprint</string>
+    <string name="voice">Voice</string>
+    <string name="get_answer">PRESS TO TALK  \n (SAY "TELL ME")</string>
+</resources>
