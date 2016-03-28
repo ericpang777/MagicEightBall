@@ -28,9 +28,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Random;
 
-//this is all under one class because I've tried moving them to different classes
-//and it just doesn't work out, with problems with getSystemService and findViewById
-
 public class MainActivity extends AppCompatActivity implements AnimationListener {
     boolean usingMotion = true;
     boolean usingProximity = false;
@@ -47,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements AnimationListener
     Button voiceButton;
     ConnectivityManager mConnectivityManager;
     ImageView mEightBall;
-    protected ImageView background;
+    ImageView background;
     LinearLayout layout;
     Sensor mAccelerometer, mProximity;
     SensorManager mSensorManager;
