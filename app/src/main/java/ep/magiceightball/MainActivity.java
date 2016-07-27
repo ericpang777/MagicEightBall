@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements AnimationListener
     long start = Long.MAX_VALUE; //if value is too small, will vibrate infinitely
     static final int REQUEST_OK = 1;
 
-    Animation animationStart; //all of the objects that appear in different methods
+    Animation animationStart; 
     Button voiceButton;
     ConnectivityManager mConnectivityManager;
     ImageView mEightBall;
